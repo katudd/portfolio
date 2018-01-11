@@ -1,0 +1,47 @@
+.Navigation {
+  background-color: #8B1D5F;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul{
+  font-weight: regular;
+  /*font-weight: bold;*/
+  font-size: 2em;
+  line-height: 2.8em;
+  text-align: center;
+}
+
+.Navigation a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.Navigation a:hover {
+  text-decoration: line-through;
+}
+
+#menuitem1:hover{
+
+  background-image: url("https://thumbs.dreamstime.com/z/seamless-modern-vector-pattern-dots-geometric-fine-ornament-black-dotted-elements-57724091.jpg");
+  background-size: cover;
+  opacity: 0.5;
+}
+
+@media (max-width: 620px){
+
+}
+
+@media (min-width:621px) and (max-width:800px){
+
+}
+
+@media (min-width: 801px){
+  ul{
+    font-size: 3em;
+    line-height: 3em;
+  }
+}

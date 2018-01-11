@@ -1,0 +1,96 @@
+.startimage-wrapper{
+  width: 100vw;
+  height: 100vh;
+  background-color: #8B1C5F;
+}
+
+.Startimage{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+.rotate-name{
+  width: 80vw;
+  max-height: 90vh;
+  margin-top: 5vh;
+  animation: fade_in_and_bounce_from_bottom ease-in-out 0.7s 1;
+}
+
+@-webkit-keyframes fade_in_and_bounce_from_bottom {
+  0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 3000px, 0);
+      transform: translate3d(0, 3000px, 0);
+  }
+  70% {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 10px, 0);
+      transform: translate3d(0, 10px, 0);
+  }
+  80% {
+      -webkit-transform: translate3d(0, -35px, 0);
+      transform: translate3d(0, -35px, 0);
+  }
+
+  100% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+  }
+}
+
+
+@media (max-width: 620px){
+  .big-name{
+    display: none;
+  }
+}
+
+@media (min-width:621px) and (max-width:800px){
+  .big-name{
+    display: none;
+  }
+}
+
+@media (min-width: 801px){
+  .big-name{
+    width: 90vw;
+    height: 100vh;
+    margin-left: 50px;
+    animation: fade_in_and_bounce_from_left 1s 1;
+    }
+
+  @-webkit-keyframes fade_in_and_bounce_from_left {
+    0%, 45%, 70%, 100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    }
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(-3000px, 0, 0);
+        transform: translate3d(-3000px, 0, 0);
+    }
+    45% {
+        opacity: 1;
+        -webkit-transform: translate3d(80px, 0, 0);
+        transform: translate3d(80px, 0, 0);
+    }
+    70% {
+        -webkit-transform: translate3d(-2px, 0, 0);
+        transform: translate3d(-2px, 0, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0x, 0, 0);
+        opacity: 1;
+    }
+  }
+
+  .rotate-name{
+    display: none;
+  }
+
+}

@@ -1,0 +1,92 @@
+
+.button-right{
+  display: block;
+  position: fixed;
+  border-radius: 50%;
+  background-color: #FB94FB;
+  z-index: 5;
+  border: none;
+  width: 64px;
+  height: 64px;
+  right: 35px;
+  bottom: 30px;
+}
+
+.navbutton-span{
+  position: relative;
+  font-family: GT Walsheim, monospace;
+  color: #FB94FB;
+  text-decoration: none;
+  right: 8px;
+  bottom: 3px;
+  font-size: 8em;
+  line-height: 0.8em;
+}
+
+.button-right:hover{
+  background-color: #fff;
+}
+
+.navbutton-span:hover{
+  color: #FB94FB;
+}
+
+.about a {
+  text-decoration: none;
+}
+
+.about a:hover {
+  text-decoration: line-through;
+}
+
+.about{
+  position: fixed;
+  font-size: 1.2em;
+  line-height: 0.5;
+}
+
+@media (max-width: 620px){
+  .about{
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+}
+
+@media (min-width:621px) and (max-width:800px){
+  .about{
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+}
+
+@media (min-width: 801px){
+  .button-right{
+    width: 90px;
+    height: 90px;
+    right: 55px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+  }
+
+  .navbutton-span{
+    right: 10px;
+    bottom: 5px;
+    font-size: 12em;
+    line-height: 0.8em;
+  }
+
+  .about{
+    top: 43%;
+    left: 10px;
+    transform: translateY(-50%);
+    transform: rotate(90deg);
+    font-size: 2em;
+    line-height: 2em;
+  }
+
+}

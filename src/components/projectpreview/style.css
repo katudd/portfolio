@@ -1,0 +1,72 @@
+.ProjectPreview {
+  text-decoration: none;
+  color: #000;
+
+}
+
+@keyframes fade-in-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ProjectPreview {
+  opacity: 0;
+  animation: fade-in-bottom ease 1s forwards;
+}
+
+.ProjectPreview .inner {
+  background: #fff;
+  padding: 7% 12%;
+}
+
+.ProjectPreview .image{
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.ProjectPreview img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.ProjectPreview img:hover{
+  transform: scale(1.03);
+}
+
+@media (max-width: 620px){
+  .ProjectPreview .inner {
+    margin-bottom: 15px;
+  }
+
+}
+
+@media (min-width:621px) and (max-width:800px){
+  .ProjectPreview .inner {
+    margin-bottom: 5%;
+  }
+
+}
+
+@media (min-width: 801px){
+  .ProjectPreview .inner {
+    flex-grow: 1;
+  }
+
+  .ProjectPreview{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+  }
+
+}

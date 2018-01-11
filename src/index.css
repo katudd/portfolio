@@ -1,0 +1,81 @@
+@font-face {
+  font-family: GT Walsheim;
+  font-style: normal;
+  font-weight: bold;
+  src:
+    local(gt-walsheim),
+    local(gt-walsheim-bold),
+    url(/fonts/gt-walsheim-bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: GT Walsheim;
+  font-style: normal;
+  font-weight: regular;
+  src:
+    local(gt-walsheim),
+    local(gt-walsheim-regular),
+    url(/fonts/gt-walsheim-regular.woff) format('woff');
+}
+
+html {
+  font-family: GT Walsheim, monospace;
+  /*font-size: 2vw;*/
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: lightgrey;
+}
+
+h1{
+  font-size: 2em;
+  font-weight: regular;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 3em;
+}
+
+h4{
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 1.7;
+}
+
+
+p{
+  font-weight: regular;
+  font-size: 1.2em;
+  line-height: 1.7;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #fff;
+}
+
+.dot{
+  font-size: 1.5em;
+  line-height: 0;
+  color: #FB94FB;
+}
+@media (max-width: 620px){
+  p{
+    font-size: 1.1em;
+  }
+}
+
+@media (min-width:621px) and (max-width:800px){
+  }
+
+@media (min-width: 801px){
+  }

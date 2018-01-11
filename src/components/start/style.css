@@ -1,0 +1,48 @@
+.start{
+  width: 100vw;
+  height: 100vh;
+}
+
+.start-content{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background: blue;
+}
+
+.h2{
+  font-family: 'Oxygen Mono', monospace;
+  font-weight: 500;
+  font-size: 7em;
+  color: white;
+  position: absolute;
+  background-color: red;
+}
+
+
+@media (max-width: 620px){
+
+
+
+  .h2{
+    top: 30%;
+    right: 50%;
+    /*transform: translate(-50%, -50%);*/
+    transform: rotate(90deg) translateY(-113%);
+  }
+
+}
+
+@media (min-width:621px) and (max-width:800px){
+}
+
+@media (min-width: 801px){
+
+  .h2{
+    font-size: 10em;
+    padding-left: 1em;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+}
