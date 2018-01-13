@@ -3,13 +3,22 @@
   display: block;
   position: fixed;
   border-radius: 50%;
+  /*background-color: red;*/
   background-color: #FB94FB;
   z-index: 5;
   border: none;
+  width: 60px;
+  height: 60px;
+  right: 28px;
+  bottom: 28px;
+}
+
+.smiley{
   width: 64px;
   height: 64px;
-  right: 35px;
-  bottom: 30px;
+  position: absolute;
+  top: -2px;
+  right: -2px;
 }
 
 .navbutton-span{
@@ -47,7 +56,7 @@
 
 @media (max-width: 620px){
   .about{
-    bottom: 40px;
+    bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -78,6 +87,14 @@
     bottom: 5px;
     font-size: 12em;
     line-height: 0.8em;
+  }
+
+  .smiley{
+    width: 95px;
+    height: 95px;
+    position: absolute;
+    top: -2px;
+    right: -2px;
   }
 
   .about{

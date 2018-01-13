@@ -22,13 +22,12 @@
   animation: fade-in-bottom ease 1s forwards;
 }
 .ProjectPage a {
-  color: #000;
+  color: #0770DD;
   text-decoration: none;
 }
 
-a:hover {
-  color: ##0770DD;
-  text-decoration: none;
+.ProjectPage a:hover {
+  color: #F79AF7;
 }
 
 .arrowsize {

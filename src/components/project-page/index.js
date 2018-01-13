@@ -32,7 +32,7 @@ export default class ProjectPage extends React.Component {
 
           <div>
             <h4>{this.state.project.technical}</h4>
-            <p>{this.state.project.longdescription}<span className="dot"> &#x263b;</span></p>
+            <p>{this.state.project.longdescription}</p>
           </div>
           <div className="projectlink">
             <a href={this.state.project.link} target="_blank" rel="noopener noreferrer"><h4>View project here</h4></a>

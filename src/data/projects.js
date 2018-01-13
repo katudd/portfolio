@@ -1,30 +1,5 @@
 export default [
   {
-  //   id: "css-grid",
-  //   name: "CSS Grid",
-  //   shortdescription: "A responsive site using CSS Grid.",
-  //   longdescription: "A responsive site using CSS Grid. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mauris mauris, facilisis sit amet dictum id, porta in est. Sed quam erat, faucibus ac odio id, tempus porttitor lectus. Praesent id sapien in enim vulputate finibus ut mattis eros. Curabitur congue velit ac pretium egestas. In nec interdum felis, nec dapibus lorem. Mauris mauris ligula, sagittis sagittis viverra nec, suscipit ac metus. Donec euismod congue arcu. Pellentesque ultricies justo quis magna mollis gravida. Maecenas in volutpat nibh. Donec quis aliquam magna. Nam hendrerit eget eros non hendrerit. In facilisis lorem ut interdum molestie. Nulla euismod ut quam ac lacinia.",
-  //   category: "code",
-  //   image: "/images/cssgriddesktop.png"
-  // }, {
-  //   id: "hero",
-  //   name: "Hero",
-  //   shortdescription: "Create a responsive hero banner",
-  //   category: "code",
-  //   image: "/images/cssgriddesktop2.png"
-  // }, {
-  //   id: "radio-player",
-  //   name: "Radio Player",
-  //   shortdescription: "A radio player using the Sveriges Radio API",
-  //   category: "code",
-  //   image: "/images/cssgriddesktop3.png"
-  // }, {
-  //   id: "new-stuff",
-  //   name: "New Stuff",
-  //   shortdescription: "A radio player using the Sveriges Radio API",
-  //   category: "code",
-  //   image: "/images/cssgriddesktop3.png"
-  // }, {
     id: "to-do-app-1",
     name: "To do App 1",
     technical: "React",
@@ -39,11 +14,11 @@ export default [
     name: "CSS Grid",
     technical: "CSS Grid, html & css",
     shortdescription: "Implementation of advanced grid layout",
-    longdescription: "A project built in hmtl and css implementing a grid layout using CSS grids, a  rather new way to solves layouting problems. For desktop it is built with max-width and auto-fill for six columns. To keep it readable on smaller screens it has two  columns for mobile.",
-    link: "https://sv.wikipedia.org/wiki/Helvetica",
+    longdescription: "A project built in hmtl and css copying the grid in the upper image using CSS grids – a rather new way to solves layouting problems. The combination of the grid and using viewport widht/height also for the fontstyling gives a smooth responsive behavior.",
+    link: "https://katudd.github.io/css-grid/",
     category: "code",
     image: "/images/css-grid-desktop.png",
-    image2: "/images/css-grid-mobil.png"
+    image2: "/images/css-grid-copy.png"
   }, {
     id: "radio-player",
     name: "SR Radio Player",
@@ -57,7 +32,7 @@ export default [
   }, {
     id: "cookie-calendar",
     name: "Online Calendar",
-    shortdescription: "Cookie calendar revealing one recepie per day!",
+    shortdescription: "Cookie calendar revealing one recepie per day.",
     longdescription: "The idea of this project was to create a page which looks super christmasey and festive. When a visitor lands on the page, they'll see 24 windows. Each day, a new window is opened and the visitor can click through to see a recepie. The project was done in cooperation with Kivra, a company mad about cookies. During the project I mainly worked with design, grid and animation.",
     link: "https://katudd.github.io/accordion/",
     category: "code",
@@ -65,21 +40,22 @@ export default [
     image2: "/images/cookie2.gif"
   }, {
 
-    id: "accordion",
-    name: "FAQ Accordion",
+    id: "online-clock",
+    name: "Online Clock",
     technical: "Javascript, html & css",
     shortdescription: "FAQ accordion in Javascript.",
     longdescription: "Example of a basic FAQ-accordion built in Javascrip, inspired by SATS. The requirements was to toggle the icon and section title to expand and collapse the description.",
-    link: "https://katudd.github.io/accordion/",
+    link: "https://katudd.github.io/clock/",
     category: "code",
-    image: "/images/accordion_desktop.png",
-    image2: "/images/accordion_mobile.png"
+    image: "/images/clock_tablet.png",
+    image2: "/images/clock_desktop.png"
   }, {
     id: "habit-tracker",
     name: "Habit Tracker",
     technical: "React",
     shortdescription: "Track your habits in mobile web.",
     longdescription: "Example of a basic FAQ-accordion built in Javascrip, inspired by SATS. The requirements was to toggle the icon and section title to expand and collapse the description.",
+    link: "https://issuu.com/trygghetsradet/docs/om_2_15_low",
     category: "code",
     image: "/images/habit_tracker_mockup.png",
     image2: "/images/habit_tracker_screens.png"
@@ -88,7 +64,8 @@ export default [
     name: "Womsy Mobile Web",
     technical: "Sketch, Invision",
     shortdescription: "Design and UX prototyp for Womsy.",
-    longdescription: "Design and UX of web protoptype for the startup Womsy – a digital living-room with women as target group. The assignment was accomplished within very tight time frames and from simple idea sketches.",
+    longdescription: "Design and UX of web protoptype for the startup Womsy – a digital living-room with women as target group. The assignment was accomplished within very tight time frames and from simple idea sketches. Below is a link to the prototyp on Invision, where you can look through a few pages and do some clicking.",
+    link: "https://invis.io/238X4IYZX#/196181790_Womsy_Fireplace",
     category: "design",
     image: "/images/Womsy_mockup.png",
     image2: "/images/womsy_screens.jpg"
@@ -98,6 +75,7 @@ export default [
     technical: "InDesign",
     shortdescription: "Customer magazine for TRR Trygghetsrådet.",
     longdescription: "Design and UX of web protoptype for the startup Womsy – a digital living-room with women as target group. The assignment was accomplished within very tight time frames and from simple idea sketches.",
+    link: "https://issuu.com/trygghetsradet/docs/om_2_15_low",
     category: "design",
     image: "/images/OM_Mohammadi_cover.jpg",
     image2: "/images/OM_Mohammadi_pages.png"
@@ -107,6 +85,7 @@ export default [
     technical: "Photoshop, Illustrator, InDesign",
     shortdescription: "Editorial illustration for article about algorithms.",
     longdescription: "Design and UX of web protoptype for the startup Womsy – a digital living-room with women as target group. The assignment was accomplished within very tight time frames and from simple idea sketches.",
+    link: "https://issuu.com/trygghetsradet/docs/om_2_17_final/30",
     category: "design",
     image: "/images/algorithms_2.png",
     image2: "/images/algorithms_1.png"
@@ -116,6 +95,7 @@ export default [
     technical: "Photoshop, Illustrator, InDesign",
     shortdescription: "Editorial illustration for article about algorithms.",
     longdescription: "Design and UX of web protoptype for the startup Womsy – a digital living-room with women as target group. The assignment was accomplished within very tight time frames and from simple idea sketches.",
+    link: "https://issuu.com/trygghetsradet/docs/om_magasin_nr_2_2016/30",
     category: "design",
     image: "/images/photo_montage_1.png",
     image2: "/images/photo_montage_2.png"
@@ -127,8 +107,8 @@ export default [
     longdescription: "Design and UX of web protoptype for the startup Womsy – a digital living-room with women as target group. The assignment was accomplished within very tight time frames and from simple idea sketches.",
     link: "https://vimeo.com/250640193",
     category: "design",
-    image: "/images/photo_montage_1.png",
-    image2: "/images/photo_montage_2.png"
+    image: "/images/social-video_1.png",
+    image2: "/images/social-video_2.png"
   }, {
     id: "tutorial",
     name: "Tutorial",
@@ -137,7 +117,7 @@ export default [
     longdescription: "Design and UX of web protoptype for the startup Womsy – a digital living-room with women as target group. The assignment was accomplished within very tight time frames and from simple idea sketches.",
     link: "https://vimeo.com/250643150",
     category: "design",
-    image: "/images/photo_montage_1.png",
-    image2: "/images/photo_montage_2.png"
+    image: "/images/tutorial_1.png",
+    image2: "/images/tutorial_2.png"
   }
 ]
