@@ -1,5 +1,5 @@
 import React from "react"
-import { BrowserRouter, Route } from "react-router-dom"
+import { HashRouter, Route } from "react-router-dom"
 import Navbutton from "./navbutton"
 import Navigation from "./navigation"
 import About from "./about"
@@ -11,7 +11,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div className="App">
           <Navbutton />
           <div className="content">
@@ -22,7 +22,7 @@ class App extends React.Component {
             <Route path="/projects/:id" component={ProjectPage} />
           </div>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     )
   }
 
