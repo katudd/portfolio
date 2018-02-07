@@ -1,7 +1,27 @@
 export default [
   {
-    id: "to-do-app-1",
-    name: "To do App 1",
+    id: "small-business-webpage",
+    name: "Content management",
+    technical: "React, Node, Mongo, Markdown, CSS Grid",
+    shortdescription: "A small business website with content management.",
+    longdescription: "As final project during the Technigo Bootcamp I made a template for a small business website. Part of the tech requirement was to use an API in Node and a database in Mongo. The database is used to add content to the stories-page via an admin page. The only way to reach the admin-page is through a user login with token-based authorization. By writing with markdown it is possible to also style the content. The admin-page also handles messages from the visitors. The image-gallery on the start page is styled using CSS Grid.",
+    link: "https://925-silver.netlify.com/#/",
+    category: "code",
+    image: "/images/925-desktop-startpage.png",
+    image2: "/images/925-desktop-adminpage.png"
+  }, {
+    id: "faq-forum",
+    name: "FAQ Forum",
+    technical: "React, Node, Mongo",
+    shortdescription: "Frontend and backend for a FAQ forum.",
+    longdescription: "Frontend and backend for a FAQ-forum, using an API with three models to handel the visitors questions, login and adding FAQs to the accordion on the start page. This was a group-project where I mainly worked with the backend, the start page and the styling. The site is not deployed, the link below will take you to the repository on Github.",
+    link: "https://github.com/katudd/faq-forum",
+    category: "code",
+    image: "/images/faq_desktop.png",
+    image2: "/images/faq_admin_desktop.png"
+  }, {
+    id: "to-do-app",
+    name: "To do App",
     technical: "React",
     shortdescription: "The classic To do App, built using React.",
     longdescription: "A classic To do app built using React. The assignment focus on building the form, handling state changes and use local storage to save state so that when the user reloads the page, they do not lose their todos. Built with three components – one for the input, one for the item and then App that stores an array of todo objects and then render the items as a list.",
@@ -13,8 +33,8 @@ export default [
     id: "css-grid",
     name: "CSS Grid",
     technical: "CSS Grid, html & css",
-    shortdescription: "Implementation of css grid.",
-    longdescription: "A project built in hmtl and css copying the grid in the upper image, using CSS grids. It is a rather new way to solve layouting problems. The combination of the grid and using viewport widht/height also for the fontstyling gives a smooth responsive behavior.",
+    shortdescription: "Implementation of CSS Grid.",
+    longdescription: "A project built in hmtl and css copying the grid in the upper image, using CSS Grid. It is a rather new way to solve layouting problems. The combination of the grid and using viewport widht/height also for the fontstyling gives a smooth responsive behavior.",
     link: "https://katudd.github.io/css-grid/",
     category: "code",
     image: "/images/css-grid-desktop.png",
@@ -23,12 +43,22 @@ export default [
     id: "radio-player",
     name: "SR Radio Player",
     technical: "Fetch API in React",
-    shortdescription: "Using Sveriges Radio API to fetch playable audio stream.",
-    longdescription: "A project built in React, using Sveriges Radio API to fetch a JSON and render a list of channels with playable audio stream urls to create a working radio player. Built with two components – one for the player and App that map over the channels in the JSON.",
+    shortdescription: "Using Sveriges Radio's API to fetch playable audio stream.",
+    longdescription: "A project built in React, using Sveriges Radio's API to fetch a JSON and render a list of channels with playable audio stream urls to create a working radio player. Built with two components – one for the player and App that map over the channels in the JSON.",
     link: "https://katudd.github.io/radio-player/",
     category: "code",
     image: "/images/radio.player-desktop.png",
     image2: "/images/radio.player-mobile.png"
+  }, {
+    id: "product-page",
+    name: "Product Page",
+    technical: "React with local JSON-file",
+    shortdescription: "A product listing built with one component and a local JSON file.",
+    longdescription: "On this product page a list of products from a local JSON file is iterated over to render a React component for each product. On hover over the box, the description shows.",
+    link: "https://product-page.netlify.com",
+    category: "code",
+    image: "/images/productpage-desktop.png",
+    image2: "/images/productpage-mobile.png"
   }, {
     id: "cookie-calendar",
     name: "Online Calendar",
