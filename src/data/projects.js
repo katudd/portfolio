@@ -144,7 +144,7 @@ export default [
     name: "Tutorial",
     technical: "AfterEffects, MediaEncoder, Photoshop",
     shortdescription: "Animated short tutorial in After Effects.",
-    longdescription: "Animated short tutorial published in Allihoopas' social channels to help users getting started with a new feature. The challange is to make it clear and easy to follow in no more than 30 seconds.",
+    longdescription: "Animated short tutorial for Allihoopas' social channels to help users getting started with a new feature. The challange is to make it clear and easy to follow in no more than 30 seconds.",
     link: "https://vimeo.com/250643150",
     category: "design",
     image: "/images/tutorial_1.png",
